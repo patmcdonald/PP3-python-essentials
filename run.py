@@ -12,8 +12,8 @@ board = ['w', 'w', 'w', 'w', 'w', 'w', 'w', 'w']
 
 print("BATTLESHIP!")
 
-shot = 1
-while shot < 5:
+SHOT = 1
+while SHOT < 5:
     print(board)
     guess = int(input("Guess where the Enemy Ship is: "))
     if guess == battleship:
@@ -22,7 +22,7 @@ while shot < 5:
     else:
         print("You missed! RELOAD!")
         board[guess - 1] = "X"
-        shot = shot + 1
+        SHOT = SHOT + 1
 
 # Code below parked for now! VVV
 
