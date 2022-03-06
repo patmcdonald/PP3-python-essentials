@@ -70,7 +70,7 @@ for turn in range(8):
         elif(board[guess_row][guess_col] == "X"):
             print("Shot taken already!")
         else:
-            print("You have missed the enemy.")
+            print("You missed. RELOAD!")
             board[guess_row][guess_col] = "X"
     if turn == 8:
         print("Battle Over!")
