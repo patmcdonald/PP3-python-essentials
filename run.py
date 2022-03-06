@@ -1,36 +1,4 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
-
-# Battleship command line game
-# import randint module
-# 
-# from random import randint
-
-# # single row game to start - keep it simple and build up..
-# battleship = randint(0, 7)
-# board = ['w', 'w', 'w', 'w', 'w', 'w', 'w', 'w']
-
-# print("BATTLESHIP!")
-
-# SHOT = 1
-# while SHOT < 5:
-#     print(board)
-#     guess = int(input("Guess where the Enemy Ship is: "))
-#     if guess == battleship:
-#         print("Direct Hit!")
-#         break
-#     else:
-#         print("You missed! RELOAD!")
-#         board[guess - 1] = "X"
-#         SHOT = SHOT + 1
-
-# Code above parked for now! \\\\
-
-# 
 # Code is adapted from https://trinket.io/python/051179b6d3
-# 
-
 
 from random import randint
 
@@ -76,27 +44,3 @@ for turn in range(8):
         print("Battle Over!")
     turn =+ 1
     print_board(board)
-
-
-
-
-
-# ship positions on board
-def load_ships(board):
-    pass
-# input for gameplay - validated
-def player_input():
-    pass
-# hit/miss alert
-def alert():
-    pass
-
-# game score and results
-def score():
-    pass
-# main method
-# if __name__ == '__main__':
-
-#    def print_board(board)
-
-# main()
