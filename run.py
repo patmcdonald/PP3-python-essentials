@@ -25,9 +25,10 @@ ship_row = random_row(board)
 ship_col = random_col(board)
 
 for turn in range(8):
-    print("FIRE!"), turn
+    print("TAKE AIM!"), turn
     guess_row = int(input("Enter Row(0 - 7) to Aim: "))
     guess_col = int(input("Enter Column(0 - 7) to Aim: "))
+    print("FIRE!")
 
     if guess_row == ship_row and guess_col == ship_col:
         print("DIRECT HIT!")
