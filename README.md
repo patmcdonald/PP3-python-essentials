@@ -1,8 +1,47 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+PP3-python-essentials README.md file
 
-Welcome Pat McDonald,
+For this project I elected to take the option of Project Example Idea 2: A Battleship console game.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+![http://ami.responsivedesign.is/](images/PP3ResponsiveScreenShot.jpg "Responsive images of app")
+
+
+
+Features
+Heading
+Nav
+Gallery/ Media?
+Download pattern?
+SignUp
+Testing
+Method/approach
+system
+manual?
+sources
+validation
+[https://contrastchecker.com/] - Hero image and overlaying text check
+
+[https://validator.w3.org/#validate_by_input]- HTML
+
+[https://jigsaw.w3.org/css-validator/]- CSS
+
+[https://developers.google.com/web/tools/lighthouse] - accessibility(crucial!)
+
+Bugs
+Finding bugs
+common bugs
+resolution of bugs
+unresolved bugs
+Solved Bugs
+sources
+Deployment
+GitHub Pages: outline process
+Credits
+Borrowed Code - under licence
+Content
+Media
+About
+First milestone project of FullStack Software Development Diploma- ECommerce
+
 
 ## Reminders
 
